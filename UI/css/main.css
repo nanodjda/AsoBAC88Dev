@@ -1,0 +1,110 @@
+﻿
+.contenedor-todo {
+}
+
+
+.contenido-central p {
+    display: flex;
+    flex-direction: column;
+}
+/***********************Imagen****************************************/
+.img p {
+    text-align: center;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body {
+    background-image: url('../imagenes/fondo_body.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (min-width: 768px) {
+    body {
+        background-image: url('../imagenes/fondo_body.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+/* Contenido central */
+
+
+.contenido-central {
+    font-size: 30px;
+    width: 230px;
+    margin: 30px auto 0 auto;
+    padding: 50px;
+    border: solid 3px #000000;
+    border-radius: 30px;
+}
+
+/*@media (min-width: 768px) {
+    .contenido-central {
+        width: 30%;
+    }
+}*/
+
+
+/*************************Encabezado*************************************/
+#encabezado {
+    background-image: url('../imagenes/fondo_header.jpg');
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-items: baseline;
+}
+
+#encabezado .titulo {
+    text-align: center;
+    margin: 0 auto;
+    margin-left: auto;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.salir {
+    font-size: 25px;
+    text-decoration: none;
+    margin: 0 100px 0 0;
+    padding: 0 0 0 100px;
+}
+
+/***************************************Botones y TextBox******************************************/
+
+.btn_Gen {
+    width: 200px;
+    height: 40px;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #007FFF;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+
+    .btn_Gen:hover {
+        background-color: dodgerblue;
+    }
+
+.txt_Gen {
+    margin: 20px;
+    background-color: #f3f1f1;
+    border-radius: 6px;
+    font-size: 20px;
+    width: 80%
+}
+
+/***************************************Pie de página**********************************************/
+
+#PiePag {
+    padding: 20px;
+    text-align: center;
+}
