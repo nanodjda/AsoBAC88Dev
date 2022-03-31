@@ -67,16 +67,17 @@ namespace UI.Pantallas.Generales
 
         protected void btn_RegAsociado_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("~/Pantallas/Mantenimientos/wfrm_ManAsociados.aspx");
         }
 
         protected void btn_ManAhorros_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("~/Pantallas/Mantenimientos/wfrm_ManAhorros.aspx");
         }
 
         protected void btn_ManCreditos_Click(object sender, EventArgs e)
         {
+            Response.Redirect("~/Pantallas/Mantenimientos/wfrm_ManCreditos.aspx");
         }
 
         // SEGURIDAD

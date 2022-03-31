@@ -1,12 +1,12 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="wfrm_EstCuenta.aspx.cs" Inherits="UI.Pantallas.Asociados.wfrm_EstCuenta" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="wfrm_ManAsociados.aspx.cs" Inherits="UI.Pantallas.Mantenimientos.wfrm_ManAsociados" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Perfil - Estado de Cuenta</title>
-    <link href="../../css/asociados.css" rel="stylesheet" />
+    <title>Mantenimiento - Asociados</title>
+    <link href="../../css/mantenimientos.css" rel="stylesheet" />
 </head>
 <body>
     <form id="form1" runat="server">
@@ -18,7 +18,7 @@
                         <a href="../Generales/wfrm_Principal.aspx"><img src="../../imagenes/logo.png" width="200" /></a>
                     </div>
                     <div class="titulo">
-                        <h1>Estado de Cuenta</h1>
+                        <h1>Registro de Asociados</h1>
                     </div>
                     <div class="salir">
                         <a id="a_salir" href="../Generales/wfrm_Principal.aspx">Atrás</a>

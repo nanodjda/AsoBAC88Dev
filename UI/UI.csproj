@@ -69,12 +69,11 @@
   <ItemGroup>
     <Content Include="css\ahorros.css" />
     <Content Include="css\creditos.css" />
-    <Content Include="css\estadocuenta.css" />
     <Content Include="css\generales.css" />
     <Content Include="css\login.css" />
     <Content Include="css\main.css" />
-    <Content Include="css\movimientos.css" />
-    <Content Include="css\perfil.css" />
+    <Content Include="css\asociados.css" />
+    <Content Include="css\mantenimientos.css" />
     <Content Include="css\principal.css" />
     <Content Include="imagenes\asobac_creditos_vivienda.jpg" />
     <Content Include="imagenes\logo.png" />
@@ -131,6 +130,9 @@
     <Content Include="Pantallas\Creditos\wfrm_PagoExt.aspx" />
     <Content Include="Pantallas\Creditos\wfrm_SolicitudCred.aspx" />
     <Content Include="Pantallas\Generales\wfrm_Principal.aspx" />
+    <Content Include="Pantallas\Mantenimientos\wfrm_ManAhorros.aspx" />
+    <Content Include="Pantallas\Mantenimientos\wfrm_ManAsociados.aspx" />
+    <Content Include="Pantallas\Mantenimientos\wfrm_ManCreditos.aspx" />
     <Content Include="Pantallas\Seguridad\wfrm_Login.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -205,6 +207,27 @@
     <Compile Include="Pantallas\Generales\wfrm_Principal.aspx.designer.cs">
       <DependentUpon>wfrm_Principal.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Pantallas\Mantenimientos\wfrm_ManAhorros.aspx.cs">
+      <DependentUpon>wfrm_ManAhorros.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Mantenimientos\wfrm_ManAhorros.aspx.designer.cs">
+      <DependentUpon>wfrm_ManAhorros.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Mantenimientos\wfrm_ManAsociados.aspx.cs">
+      <DependentUpon>wfrm_ManAsociados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Mantenimientos\wfrm_ManAsociados.aspx.designer.cs">
+      <DependentUpon>wfrm_ManAsociados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Mantenimientos\wfrm_ManCreditos.aspx.cs">
+      <DependentUpon>wfrm_ManCreditos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Mantenimientos\wfrm_ManCreditos.aspx.designer.cs">
+      <DependentUpon>wfrm_ManCreditos.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Pantallas\Seguridad\wfrm_Login.aspx.cs">
       <DependentUpon>wfrm_Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -226,7 +249,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pantallas\Aprobaciones\" />
-    <Folder Include="Pantallas\Mantenimientos\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

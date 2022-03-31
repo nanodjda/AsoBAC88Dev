@@ -6,7 +6,7 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Perfil - Datos personales</title>
-    <link href="../../css/perfil.css" rel="stylesheet" />
+    <link href="../../css/asociados.css" rel="stylesheet" />
 </head>
 <body>
     <form id="form1" runat="server">
