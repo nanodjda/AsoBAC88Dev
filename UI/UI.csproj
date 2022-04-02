@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\ahorros.css" />
+    <Content Include="css\aprobaciones.css" />
     <Content Include="css\creditos.css" />
     <Content Include="css\generales.css" />
     <Content Include="css\login.css" />
@@ -75,6 +76,7 @@
     <Content Include="css\asociados.css" />
     <Content Include="css\mantenimientos.css" />
     <Content Include="css\principal.css" />
+    <Content Include="css\seguridad.css" />
     <Content Include="imagenes\asobac_creditos_vivienda.jpg" />
     <Content Include="imagenes\logo.png" />
     <Content Include="imagenes\reunion_aso.jpeg" />
@@ -123,6 +125,8 @@
     <Content Include="Pantallas\Ahorros\wfrm_MatAhorros.aspx" />
     <Content Include="Pantallas\Ahorros\wfrm_MisAhorros.aspx" />
     <Content Include="Pantallas\Ahorros\wfrm_RetAhorros.aspx" />
+    <Content Include="Pantallas\Aprobaciones\wfrm_AproAhorros.aspx" />
+    <Content Include="Pantallas\Aprobaciones\wfrm_AproCreditos.aspx" />
     <Content Include="Pantallas\Asociados\wfrm_EstCuenta.aspx" />
     <Content Include="Pantallas\Asociados\wfrm_Movimientos.aspx" />
     <Content Include="Pantallas\Asociados\wfrm_Perfil.aspx" />
@@ -133,7 +137,11 @@
     <Content Include="Pantallas\Mantenimientos\wfrm_ManAhorros.aspx" />
     <Content Include="Pantallas\Mantenimientos\wfrm_ManAsociados.aspx" />
     <Content Include="Pantallas\Mantenimientos\wfrm_ManCreditos.aspx" />
-    <Content Include="Pantallas\Seguridad\wfrm_Login.aspx" />
+    <Content Include="Pantallas\Seguridad\wfrm_SegLogin.aspx" />
+    <Content Include="Pantallas\Seguridad\wfrm_SegAccesos.aspx" />
+    <Content Include="Pantallas\Seguridad\wfrm_SegPlanilla.aspx" />
+    <Content Include="Pantallas\Seguridad\wfrm_SegRecuperarPass.aspx" />
+    <Content Include="Pantallas\Seguridad\wfrm_SegUsuarios.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -157,6 +165,20 @@
     </Compile>
     <Compile Include="Pantallas\Ahorros\wfrm_RetAhorros.aspx.designer.cs">
       <DependentUpon>wfrm_RetAhorros.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Aprobaciones\wfrm_AproAhorros.aspx.cs">
+      <DependentUpon>wfrm_AproAhorros.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Aprobaciones\wfrm_AproAhorros.aspx.designer.cs">
+      <DependentUpon>wfrm_AproAhorros.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Aprobaciones\wfrm_AproCreditos.aspx.cs">
+      <DependentUpon>wfrm_AproCreditos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Aprobaciones\wfrm_AproCreditos.aspx.designer.cs">
+      <DependentUpon>wfrm_AproCreditos.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pantallas\Asociados\wfrm_EstCuenta.aspx.cs">
       <DependentUpon>wfrm_EstCuenta.aspx</DependentUpon>
@@ -228,12 +250,40 @@
     <Compile Include="Pantallas\Mantenimientos\wfrm_ManCreditos.aspx.designer.cs">
       <DependentUpon>wfrm_ManCreditos.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pantallas\Seguridad\wfrm_Login.aspx.cs">
-      <DependentUpon>wfrm_Login.aspx</DependentUpon>
+    <Compile Include="Pantallas\Seguridad\wfrm_SegLogin.aspx.cs">
+      <DependentUpon>wfrm_SegLogin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pantallas\Seguridad\wfrm_Login.aspx.designer.cs">
-      <DependentUpon>wfrm_Login.aspx</DependentUpon>
+    <Compile Include="Pantallas\Seguridad\wfrm_SegLogin.aspx.designer.cs">
+      <DependentUpon>wfrm_SegLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Seguridad\wfrm_SegAccesos.aspx.cs">
+      <DependentUpon>wfrm_SegAccesos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Seguridad\wfrm_SegAccesos.aspx.designer.cs">
+      <DependentUpon>wfrm_SegAccesos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Seguridad\wfrm_SegPlanilla.aspx.cs">
+      <DependentUpon>wfrm_SegPlanilla.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Seguridad\wfrm_SegPlanilla.aspx.designer.cs">
+      <DependentUpon>wfrm_SegPlanilla.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Seguridad\wfrm_SegRecuperarPass.aspx.cs">
+      <DependentUpon>wfrm_SegRecuperarPass.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Seguridad\wfrm_SegRecuperarPass.aspx.designer.cs">
+      <DependentUpon>wfrm_SegRecuperarPass.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Seguridad\wfrm_SegUsuarios.aspx.cs">
+      <DependentUpon>wfrm_SegUsuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Seguridad\wfrm_SegUsuarios.aspx.designer.cs">
+      <DependentUpon>wfrm_SegUsuarios.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -247,9 +297,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Pantallas\Aprobaciones\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

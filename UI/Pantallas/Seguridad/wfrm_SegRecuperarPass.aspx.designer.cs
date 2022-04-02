@@ -7,11 +7,11 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace UI.Pantallas.Creditos
+namespace UI.Pantallas.Seguridad
 {
 
 
-    public partial class wfrm_MisCreditos
+    public partial class wfrm_SegRecuperarPass
     {
 
         /// <summary>
@@ -22,14 +22,5 @@ namespace UI.Pantallas.Creditos
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-
-        /// <summary>
-        /// Control menu_header.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Menu menu_header;
     }
 }

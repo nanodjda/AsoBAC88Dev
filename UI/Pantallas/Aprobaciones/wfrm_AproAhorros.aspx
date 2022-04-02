@@ -1,12 +1,12 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="wfrm_ManAhorros.aspx.cs" Inherits="UI.Pantallas.Mantenimientos.wfrm_ManAhorros" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="wfrm_AproAhorros.aspx.cs" Inherits="UI.Pantallas.Aprobaciones.wfrm_AproAhorros" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Mantenimiento - Ahorros</title>
-    <link href="../../css/mantenimientos.css" rel="stylesheet" />
+    <title>Aprobaciones - Ahorros</title>
+    <link href="../../css/aprobaciones.css" rel="stylesheet" />
 </head>
 <body>
     <form id="form1" runat="server">
@@ -18,7 +18,7 @@
                         <a href="../Generales/wfrm_Principal.aspx"><img src="../../imagenes/logo.png" width="200" /></a>
                     </div>
                     <div class="titulo">
-                        <h1>Mantenimiento de Ahorros</h1>
+                        <h1>Aprobaciones de ahorros</h1>
                     </div>
                     <div class="salir">
                         <a id="a_salir" href="../Generales/wfrm_Principal.aspx">Atrás</a>

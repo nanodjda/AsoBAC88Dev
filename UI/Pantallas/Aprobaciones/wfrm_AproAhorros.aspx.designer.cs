@@ -7,11 +7,11 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace UI.Pantallas.Creditos
+namespace UI.Pantallas.Aprobaciones
 {
 
 
-    public partial class wfrm_MisCreditos
+    public partial class wfrm_AproAhorros
     {
 
         /// <summary>

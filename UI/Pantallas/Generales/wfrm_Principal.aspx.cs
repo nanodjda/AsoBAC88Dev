@@ -84,27 +84,27 @@ namespace UI.Pantallas.Generales
 
         protected void btn_ManUsuarios_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("~/Pantallas/Seguridad/wfrm_SegUsuarios.aspx");
         }
         protected void btn_SegAccesos_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("~/Pantallas/Seguridad/wfrm_SegAccesos.aspx");
         }
         protected void btn_SegIngresos_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("~/Pantallas/Seguridad/wfrm_SegPlanilla.aspx");
         }
 
         //Aprobaciones
 
         protected void btn_AproAhorros_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("~/Pantallas/Aprobaciones/wfrm_AproAhorros.aspx");
         }
 
         protected void btn_AproCreditos_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("~/Pantallas/Aprobaciones/wfrm_AproCreditos.aspx");
         }
     }
 }

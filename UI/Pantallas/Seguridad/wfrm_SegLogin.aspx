@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="wfrm_Login.aspx.cs" Inherits="UI.Pantallas.Seguridad.wfrm_Login" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="wfrm_SegLogin.aspx.cs" Inherits="UI.Pantallas.Seguridad.wfrm_Login" %>
 
 <!DOCTYPE html>
 
@@ -15,7 +15,7 @@
            <header>
                 <div id="encabezado">
                     <div class="logo">
-                        <a href="wfrm_Login.aspx"><img src="../../imagenes/logo.png" width="200" /></a>
+                        <a href="wfrm_SegLogin.aspx"><img src="../../imagenes/logo.png" width="200" /></a>
                     </div>
                     <div class="titulo">
                         <h1>Ingrese su usuario y contraseña</h1>
@@ -37,7 +37,7 @@
                         <asp:Button ID="btn_ingresar" CssClass="btn_Gen" runat="server" Text="Ingresar" Font-Bold="True" Font-Size="Larger" Width="190px" ForeColor="White" OnClick="btn_ingresar_Click1" />
                     </p>
                     <p id="ResetPass">
-                        <a href="wfrm_ResetPass.aspx">¿Olvido su contraseña?</a>
+                        <a href="wfrm_SegRecuperarPass.aspx">¿Olvido su contraseña?</a>
                     </p>
                 </div>
                 <div class="img">
